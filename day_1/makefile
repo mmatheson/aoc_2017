@@ -1,6 +1,3 @@
-run: all
-	./bin/day_1
-	
 all: day_1
 
 day_1: main.o
