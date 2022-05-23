@@ -1,6 +1,8 @@
 version: 0.1
 cli:
   version: 0.12.1-beta
+api:
+  address: api.trunk-staging.io:8443
 lint:
   enabled:
     - actionlint@1.6.9
