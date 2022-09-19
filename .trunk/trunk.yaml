@@ -1,8 +1,11 @@
 version: 0.1
 cli:
-  version: 0.13.2-beta
+  version: 0.17.0-beta
 api:
   address: api.trunk-staging.io:8443
+merge:
+  required_statuses:
+    - buildkite/test2
 lint:
   enabled:
     - actionlint@1.6.9
